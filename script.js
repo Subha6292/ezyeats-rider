@@ -1,5 +1,5 @@
 // script.js
 document.querySelector('.rider-form').addEventListener('submit', function(event) {
     event.preventDefault();
-    alert('Thank you! A download link has been sent to your mobile.');
+    alert('Thank you! For your Registration. Our Company will be Reach you shortly');
 });
