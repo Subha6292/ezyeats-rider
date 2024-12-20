@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #89e47f;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.benefits li{
+    list-style: none;
+    text-align: start;
+}
+
+.footer-links li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    padding: 20px;
+    background-color: #f7f7f7;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(front.png) ;
+    background-size: cover;
+}
+
+.checkbox {
+    display: flex;
+    align-items: start;
+}
+
+.checkbox input {
+    text-align: start;
+    padding: 10px;
+}
+
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.rider-form {
+    padding: 27px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    background-color: #fff;
+    opacity: 0.8;
+
+}
+.rider-form:hover{
+    background-color: #89e47f;
+    opacity: 1;
+
+}
+
+.rider-form input,
+.rider-form select,
+.rider-form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.rider-form button {
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.why-join {
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.why-join .benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.benefits img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
